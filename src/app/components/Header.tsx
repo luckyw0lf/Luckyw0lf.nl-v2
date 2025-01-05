@@ -38,7 +38,7 @@ export default function Header() {
                     </li>
                     <li>
                         <a
-                            href="/links"
+                            href="/links.html"
                             className="px-4 py-2 rounded-lg bg-white text-blue-500 font-semibold hover:bg-blue-600 hover:text-white shadow-md transform hover:scale-105 transition-all duration-300"
                         >
                             Links
@@ -46,7 +46,7 @@ export default function Header() {
                     </li>
                     <li>
                         <a
-                            href="/wishlist"
+                            href="/wishlist.html"
                             className="px-4 py-2 rounded-lg bg-white text-purple-500 font-semibold hover:bg-purple-600 hover:text-white shadow-md transform hover:scale-105 transition-all duration-300"
                         >
                             Wishlist
