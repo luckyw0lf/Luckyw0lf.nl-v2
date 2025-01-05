@@ -6,7 +6,7 @@ import Header from "./components/Header";
 
 export const metadata: Metadata = {
   title: "Luckyw0lf.nl",
-  description: "A info page about Luckyw0lf.",
+  description: "An info page about Luckyw0lf.",
 };
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className="bg-gray-50">
         <Header/>
         {children}
       </body>
