@@ -55,7 +55,7 @@ export default function Links() {
             />
         <Card
             title="cyonatype - Synthion"
-            description="I really enjoy Synthion, I'd love to own her discography. (album is 3USD, discography is 14,63USD)"
+            description="I really enjoy Synthion, I'd love to own her discography. (album is 3USD, discography is 14.63USD)"
             src="https://f4.bcbits.com/img/a1874905329_16.jpg"
             link="https://synthion.bandcamp.com/album/cyanotype" 
             />
@@ -84,15 +84,20 @@ export default function Links() {
         <div className="grid grid-cols-1 grid-rows-3 lg:grid-cols-3 lg:grid-rows-1 w-full 2xl:w-2/3 gap-4 pt-2">
         <Card
             title="M.2 PCIE gen 4 drive (2TB)"
-            description="Now that I have a new motherboard, my SATA m.2 doesn't work on it anymore, this drive is price to preformance and has some nice speeds. €120,-"
-            src="https://www.megekko.nl/productimg/963759/nw/1_Lexar-LNQ790-2TB-M-2-SSD.jpg" 
-            link="https://www.megekko.nl/product/0/963759/Lexar-LNQ790-2TB-M-2-SSD"
+            description="This drive is price to preformance and has some nice speeds. €126,-"
+            src="https://www.megekko.nl/productimg/953702/nw/1_Lexar-NM790-2TB-M-2-SSD.jpg" 
+            link="https://www.megekko.nl/product/5093/953702/SSD-M-2/Lexar-NM790-2TB-M-2-SSD"
             />
         <Card
             title="RX 7800XT"
             description="This is something I'm working towards myself, It's around €500,-"
             src="https://azerty.nl/media/catalog/product/C/b/CboGp8.a3e266af6f61601adbe53287bdacd72f-2fd2a582_1.jpg"
             link="https://azerty.nl/product/gigabyte-radeon-rx-7800-xt-gaming-oc-videokaart/6123912" />
+        <Card
+            title="Sony WH1000XM4"
+            description="I'm usually not into wireless headphones. But for something on the go it would be perfect, €229,-"
+            src="https://m.media-amazon.com/images/I/61UQZusYyqS._AC_SX522_.jpg"
+            link="https://www.amazon.nl/dp/B08C7KG5LP/" />
         </div>
 
 
@@ -101,7 +106,7 @@ export default function Links() {
         * 3d Models
         *
         */}
-        <h2 className="mt-4 text-2xl">3d Models, to edit and use for VRChat:</h2>
+        {/* <h2 className="mt-4 text-2xl">3d Models, to edit and use for VRChat:</h2>
         <div className="grid grid-cols-1 grid-rows-3 lg:grid-cols-3 lg:grid-rows-1 w-full 2xl:w-2/3 gap-4 pt-2">
         <Card
             title="エイラ (Eira) base model"
@@ -109,7 +114,7 @@ export default function Links() {
             src="https://booth.pximg.net/70c03f34-f561-4b7a-af1a-6bec13229237/i/5426070/1f5b51f2-9bbd-4d23-a359-8372a7052e6b_base_resized.jpg" 
             link="https://booth.pm/en/items/5426070"
             />
-        </div>
+        </div> */}
     </div>
     )
 }
